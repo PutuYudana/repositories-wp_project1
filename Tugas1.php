@@ -16,8 +16,8 @@
       
         <?php      
         if(isset($_POST['hasil'])){
-                $alas    =$_POST["txALAS"];
-                $tinggi    =$_POST["txTINGGI"];
+                $alas = $_POST["txALAS"];
+                $tinggi = $_POST["txTINGGI"];
                 $luas = $alas * $tinggi * 0.5;
                 echo $luas ;
             }
